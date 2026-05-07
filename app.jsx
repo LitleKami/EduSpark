@@ -58,7 +58,9 @@ const App = () => {
 
     try {
       // Note: In production, call your Python backend instead of Gemini directly for security
-      const response = await fetch(`YOUR_BACKEND_URL/generate-lesson`, {
+      const response = await fetch(vercel.com/
+nehemiahanyidakuzo-3347s-projects
+/generate-lesson`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ topic, level })
